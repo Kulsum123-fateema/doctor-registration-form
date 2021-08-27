@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Doctor Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container border border-success border-3 my-3">
+        <h1>Doctor Registration</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <h4>Section 1 :Application Name / Demographic Information</h4>
+            <div class="col-md-4">
+                <label for="fname" class="form-label ">First name</label>
+                <input type="text" class="form-control" id="fname" required>
+
+            </div>
+            <div class="col-md-4">
+                <label for="lname" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lname" required>
+
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Date Of Birth</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Age</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Please Enter a valid Age.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Gender</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option value="">Choose...</option>
+                    <option value="">Male</option>
+                    <option>Female</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select Gender .
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- section 2 -->
+            <h4>Section 2:Home Address</h4>
+            <div class="col-md-6">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" id="city" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Karnataka</option>
+                    <option>Andra Pradesh</option>
+                    <option>Maharastra</option>
+                    <option>Kerala</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="zip" required>
+                <div class="invalid-feedback">
+                    Please provide a valid zip.
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="telep" class="form-label">Telephone No.</label>
+                <input type="text" class="form-control" id="telep" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="mbl" class="form-label">Mubile No.</label>
+                <input type="text" class="form-control" id="mbl" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="eml" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                    <input type="email" class="form-control" id="eml" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please Enter yor Email.
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- section3 -->
+            <h4>Section 2:Bussines Address</h4>
+            <div class="col-md-6">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" id="city" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Karnataka</option>
+                    <option>Andra Pradesh</option>
+                    <option>Maharastra</option>
+                    <option>Kerala</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="zip" required>
+                <div class="invalid-feedback">
+                    Please provide a valid zip.
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="telep" class="form-label">Telephone No.</label>
+                <input type="text" class="form-control" id="telep" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="mbl" class="form-label">Mubile No.</label>
+                <input type="text" class="form-control" id="mbl" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="eml" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                    <input type="email" class="form-control" id="eml" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please Enter yor Email.
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <h4>Sectiom 4:Medical Education</h4>
+            <div class="col-md-4">
+                <label for="medicalschool" class="form-label">Medical School</label>
+                <input type="text" class="form-control" id="medicalschool" required>
+
+            </div>
+            <div class="col-md-4">
+                <label for="schoolcity" class="form-label">City</label>
+                <input type="text" class="form-control" id="schoolcity" required>
+
+            </div>
+            <div class="col-md-4">
+                <label for="country" class="form-label">Country</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="country">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="graduationdate" class="form-label">Dimploma</label>
+                <input type="text" class="form-control" id="graduationdate" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="diploma" class="form-label">Date of Graduation</label>
+                <input type="text" class="form-control" id="diploma" required>
+                <div class="invalid-feedback">
+                    Please provide a valid zip.
+                </div>
+            </div>
+
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 text-center">
+                <button class="btn btn-success  my-3" type="submit">Submit form</button>
+            </div>
+
+
+
+
+
+        </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+</body>
+
+</html>

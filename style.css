@@ -1,0 +1,19 @@
+.container{
+    background-color: #abe8bd;
+}
+h1{
+    color:rgb(251, 5, 5);
+    
+    text-align: center;
+}
+label{
+    font-weight: bolder;
+}
+h4{
+    color: tomato;
+    
+}
+button{
+   border-radius: 10%; 
+} 
+    
